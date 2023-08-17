@@ -1,0 +1,39 @@
+{
+  "name": "htmx-node-todo",
+  "version": "1.0.0",
+  "description": "Todo app written with htmx and nodejs",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "htmx",
+    "nodejs",
+    "todo",
+    "web"
+  ],
+  "author": "TheShad0wNinja",
+  "license": "ISC",
+  "dependencies": {
+    "@types/compression": "^1.7.2",
+    "better-safe-typed-html": "^1.0.1",
+    "better-sqlite3": "^8.5.0",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
